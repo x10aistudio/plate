@@ -35,7 +35,7 @@
     div.style.padding = "10px 12px";
     div.style.borderRadius = "12px";
     div.style.maxWidth = "80%";
-    div.style.fontSize = "14px";
+    div.style.fontSize = "16px";
     
     let clean = text.replace(/RESERVATION_REQUEST:\s*true/gi, '').trim();
     if (!clean && role === "model") return;
