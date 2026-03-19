@@ -16,7 +16,7 @@
     </div>
     <div id="plate-msgs" style="flex:1;padding:12px;overflow-y:auto;display:flex;flex-direction:column;gap:8px;background:#f9fafb;"></div>
     <div style="padding:10px;border-top:1px solid #eee;display:flex;gap:6px;">
-      <input id="plate-input" placeholder="สอบถามเมนู หรือจองโต๊ะ..." style="flex:1;padding:10px;border:1px solid #ddd;border-radius:8px;font-size:16px;">
+      <input id="plate-input" placeholder="สอบถามเมนู หรือจองโต๊ะ..." style="flex:1;padding:10px;border:1px solid #ddd;border-radius:8px;font-size:18px;">
       <button id="plate-send" style="background:#000;color:#fff;border:none;padding:10px 14px;border-radius:8px;cursor:pointer;">ส่ง</button>
     </div>
   </div>
@@ -35,7 +35,7 @@
     div.style.padding = "10px 12px";
     div.style.borderRadius = "12px";
     div.style.maxWidth = "80%";
-    div.style.fontSize = "16px";
+    div.style.fontSize = "18px";
     
     let clean = text.replace(/RESERVATION_REQUEST:\s*true/gi, '').trim();
     if (!clean && role === "model") return;
