@@ -59,7 +59,7 @@
         padding:10px;
         border:1px solid #ddd;
         border-radius:8px;
-        font-size:14px;
+        font-size:16px;
       ">
       <button id="plate-send" style="
         background:#000;
