@@ -154,7 +154,8 @@ const msgs = document.getElementById('msgs');
 const input = document.getElementById('in');
 const btn = document.getElementById('btn');
 
-const PROXY = "https://plate.x10-aistudio.workers.dev";
+// ในไฟล์ index.html บน Vercel
+const PROXY = "/api/chat"; // ชี้เข้าหาตัวเองได้เลย ไม่ต้องใส่ Domain เต็ม
 
 let chatHistory = [];
 
